@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a6747da7c2.js" crossorigin="anonymous"></script>
+
+</head>
+ <style>
+    .wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+
+    }
+    #palm {
+      font-size: 50px;  
+      animation-name: hiihii;
+      animation-duration:0.8s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+
+    }
+    @keyframes hiihii {
+        0%{
+          transform: rotate(-20deg);
+        }
+        25%{
+          transform: rotate(0deg);
+        }
+        75%{
+          transform: rotate(20deg);
+        }
+        100%{
+          transform: rotate(0deg);
+        }
+    }
+ </style>
+<body>
+    <div class="wrapper">
+      <div id="palm">
+        <i class="fa-solid fa-hand"></i>
+        </div>
+    </div>
+      <marquee behavior="scroll" direction="">jyoti and roshani  <img src="./images/img/img-1.png" alt=""></marquee>
+</body>
+</html>
